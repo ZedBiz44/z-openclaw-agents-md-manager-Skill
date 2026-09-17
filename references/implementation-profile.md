@@ -6,13 +6,12 @@
 - Skill identifier: `z-openclaw-agents-md-manager`.
 - Technical source: `https://github.com/ZedBiz44/z-openclaw-agents-md-manager-Skill`.
 - License policy: Internal ZedBiz operating skill unless the repository owner publishes a separate licence.
-- This skill manages other OpenClaw agents. It never grants self-editing authority to the target agent.
+- This skill is designed for approved operators managing other OpenClaw agents. It does not decide or override whether an agent has separate authority to manage its own files.
 
 ## Platforms and Users
 
 - Initial platform: Codex Desktop, used by Cody.
 - Other approved external operators may include Manus and, after separate approval and testing, Victor.
-- Victor must not use the skill to edit his own `AGENTS.md`.
 - OpenClaw is the managed target platform, not the initial skill runtime.
 
 ## Sources of Truth
