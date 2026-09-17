@@ -18,6 +18,7 @@ Read this reference before changing a live OpenClaw agent.
 - Copy the live file into a protected work area.
 - Create the instruction-preservation register before editing.
 - Draft the candidate from verified live, GitHub, role, and runtime evidence.
+- For every relocated instruction, verify the destination exists, keep a short routing instruction in `AGENTS.md`, and include a fresh-session discovery-and-use test. Do not remove the original material until all three checks pass.
 - Run `scripts/analyze_agents_md.py` on both versions.
 - Review the diff line by line against the register.
 - Commit the candidate, register, and assessment to a branch or pull request.
