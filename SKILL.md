@@ -1,6 +1,6 @@
 ---
 name: z-openclaw-agents-md-manager
-description: Audit, create, restructure, shorten, test, or deploy AGENTS.md files for other OpenClaw agents. Use for external maintenance, not self-editing.
+description: Audit, create, restructure, shorten, test, or deploy AGENTS.md files for OpenClaw agents, primarily when an external AI operator manages another agent's file.
 ---
 
 # Z OpenClaw AGENTS.md Manager
@@ -10,7 +10,7 @@ Manage another OpenClaw agent's `AGENTS.md` without losing role-specific instruc
 ## Scope and Authority
 
 - Use this skill when an external operator such as Cody, Manus, or an approved technical agent is asked to audit, create, reorganize, shorten, repair, test, or deploy another OpenClaw agent's `AGENTS.md`.
-- Never use this skill to let an OpenClaw agent rewrite or deploy its own `AGENTS.md`. If the executing agent and target agent are the same, stop and require a separate approved operator.
+- This skill is designed for external management of another OpenClaw agent's `AGENTS.md`. Self-management is outside this skill's intended workflow, but the skill does not create a blanket prohibition or override authority granted elsewhere.
 - A request to review or diagnose authorizes read-only inspection only.
 - A request to create or optimize authorizes a candidate file and report, not a live deployment unless the user also requests deployment.
 - Require confirmation immediately before a production write, restart, configuration change, hook change, permission change, or fleet-wide rollout.
