@@ -66,4 +66,3 @@
 - Rollback status:
 - Remaining risk:
 - Next approved action:
-
