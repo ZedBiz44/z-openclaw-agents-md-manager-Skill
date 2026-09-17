@@ -106,4 +106,3 @@ Before drafting or changing content:
 - Stop when the live file, repository version, runtime configuration, target identity, approval, backup, or rollback path cannot be confirmed.
 - Stop if secret values appear in any candidate, diff, log, or report.
 - Stop if a new material risk or scope change appears. Return to diagnose, propose the solution, obtain confirmation, and then act.
-
