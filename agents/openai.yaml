@@ -1,0 +1,5 @@
+interface:
+  display_name: "Z OpenClaw AGENTS.md Manager"
+  short_description: "Safely manage OpenClaw AGENTS.md files"
+  default_prompt: "Use $z-openclaw-agents-md-manager to audit and optimize an OpenClaw agent AGENTS.md file."
+
