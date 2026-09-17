@@ -51,6 +51,7 @@ Before drafting or changing content:
 - Preserve names, ownership, authority limits, approval gates, security restrictions, source-of-truth routing, communication rules, tool constraints, memory privacy, standing orders, and role-specific failure lessons.
 - Treat rules added after a previous cleanup as intentional until evidence proves otherwise.
 - Never use character reduction as the only reason to delete a rule.
+- Do not remove relocated material from `AGENTS.md` until its destination exists, a short routing instruction remains in `AGENTS.md`, and a fresh-session test proves the agent can discover and use the destination.
 
 ## Draft the Candidate
 
