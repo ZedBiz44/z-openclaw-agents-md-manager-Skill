@@ -22,4 +22,3 @@ For every compressed or merged safety rule, state how the new wording preserves 
 - Every retirement has a reason.
 - Every critical rule has a behavior test.
 - No item is removed only to meet the size target.
-
