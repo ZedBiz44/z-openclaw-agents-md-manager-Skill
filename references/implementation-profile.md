@@ -45,4 +45,3 @@
 - Installed Codex copy matches the committed source.
 - Positive, paraphrased, boundary, and negative trigger tests pass.
 - Notion SOP links to the GitHub source and states the approval and rollback rules.
-
