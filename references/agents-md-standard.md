@@ -85,6 +85,19 @@ Safety and authority rules belong near the beginning when they govern most work.
 - `BOOT.md` runs only when the relevant startup hook is enabled. Existence alone does not make it active.
 - Arbitrary referenced files are not guaranteed to be injected. Verify bootstrap hook allowlists and `/context detail`.
 
+## Retired TOOLS.md Cleanup
+
+- Verify the installed runtime and resolved workspace first. Current OpenClaw uses `AGENTS.md` → `## Tools`; do not recreate `TOOLS.md` just because an old instruction or old session tries to read it.
+- If the legacy file exists, back it up outside the active workspace, account for every customized note, and verify the merged destination before removing the active original. Preserve owner, mode, and reader access. The official migration uses `openclaw doctor --fix`; do not run broad Doctor repairs solely for this cleanup without reviewing their other effects and authority.
+- If migration already happened, preserve the existing Tools content and archive. Correct the remaining instructions instead of reimporting notes, deleting recovery copies, or creating a compatibility file.
+- Search active `AGENTS.md`, `SOUL.md`, `IDENTITY.md`, other loaded core files, applicable skills, and scripts for instructions to read, write, or recreate `TOOLS.md`. Inspect hooks and active workspace paths; do not blindly replace historical source labels, migration headings, backups, archived transcripts, or unrelated platforms' instructions.
+- OpenClaw's automatic rewrite can match only standard phrases. Customized wording can survive even when the file was successfully migrated. Replace each obsolete instruction with the actual `Tools` section of `AGENTS.md`, retaining the original task conditions, privacy restrictions, identity checks, and approval boundaries.
+- Check the merged file against the live per-file and total context limits. Do not increase limits or discard rules as an incidental cleanup. Preserve unrelated file content and compare baseline hashes immediately before writing.
+- Test one agent first in a genuinely fresh session: it must locate its current tool notes, retain a role-specific safeguard, and handle a missing legacy file without recreating it. Verify a final-section rule as behavioral evidence; `native_unverified` context metadata alone does not certify complete injection. Then expand only within the user's approved scope.
+- Record exact changed files, preserved notes, hashes, backup paths, fresh-session results, and any remaining active references. Older conversations may retain obsolete instructions; distinguish those from current files.
+
+Official reference: [TOOLS.md retired](https://docs.openclaw.ai/reference/templates/TOOLS).
+
 ## Size Standard
 
 - Target: 10,000 to 14,000 OpenClaw characters.
