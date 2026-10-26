@@ -59,6 +59,7 @@ Before drafting or changing content:
 - Keep role-specific ownership and non-goals clear before shared operating detail.
 - Remove repetition, chat-history language, completed incident status, stale paths, and procedural detail that belongs in a skill or automation.
 - Keep local tool conventions in the location recognized by the installed OpenClaw version. Current releases use the `## Tools` section in `AGENTS.md`; older or customized fleets must be verified before migration.
+- For retired `TOOLS.md` cleanup, follow [the migration checks](references/agents-md-standard.md#retired-toolsmd-cleanup). Preserve customized notes, repair active read/write references across loaded core files, and test one fresh session before expanding within the approved scope.
 - Keep automation authority and approval boundaries in `AGENTS.md`; place schedules in OpenClaw automations. Do not assume a referenced file is auto-injected.
 - Keep only the compact standing-order contract in always-loaded context. Move long execution procedures into skills when they can be loaded on demand.
 - Keep the candidate between 10,000 and 14,000 OpenClaw characters when practical.
